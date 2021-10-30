@@ -1,0 +1,89 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../res/bady-abbas-MDgRcuGYu58-unsplash.jpg");
+    background-color: #3B5998;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+}
+
+nav {
+    margin: 30px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 10px;
+}
+a:hover{
+    box-shadow: 0px 0px 10px 0px black;
+    background: white;
+    border-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li:hover a {
+    color: white;
+}
+
+.top-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    margin: 2% 0 0 5%;
+}
+
+.left p {
+    width: 500px;
+    color: white;
+    font-size: 25px;
+}
+
+.right {
+    margin: 2% 5% 0 0;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2b4860;
+}
+.middle {
+    margin: auto;
+    width: fit-content;
+    color: white;
+}
+

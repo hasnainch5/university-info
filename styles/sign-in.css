@@ -1,0 +1,164 @@
+
+body {
+    background-image: url("../res/bady-abbas-MDgRcuGYu58-unsplash.jpg");
+    background-color: #3B5998;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-family: Roboto, sans-serif;
+    color: #343333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+
+    height: fit-content;
+    margin: 20px;
+}
+
+form {
+    background-image: url("../res/gilbert-beltran-e7vb0cy9Zkabfhba.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black;
+    padding: 100px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+
+input {
+    width: 240px;
+    padding: 20px;
+    outline: none;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    transition: .5s;
+}
+
+
+button[type=submit] {
+    width: 240px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #0173a7;
+    border: 2px solid #0173a7;
+    outline: none;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 20px;
+}
+
+input:focus {
+    width: 300px;
+}
+
+input:focus, button[type=submit]:hover {
+   box-shadow: 0 0 0 3px #0173a7;
+}
+
+button[type=submit]:hover {
+    box-shadow: 0 0 0 3px #2b4c5b;
+
+}
+
+button[type=submit]:hover {
+    background: #0173a7
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+    color: white;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #57ba98
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    background-color: #97c7ee;
+    border: 2px solid white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.9s
+}
+
+.social-circle i {
+    color: white;
+    transition: all 0.9s;
+    transition: all 0.9s
+}
+
+.social-circle {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+li {
+    margin-right: 10px;
+}

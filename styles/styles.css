@@ -1,0 +1,120 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../res/bady-abbas-MDgRcuGYu58-unsplash.jpg");
+    background-color: #3B5998;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    margin: 30px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+a:hover {
+    box-shadow: 0px 0px 10px 0px black;
+    background: white;
+    border-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+
+li:hover {
+    cursor: pointer;
+}
+
+li:hover a {
+
+    color: white;
+}
+
+.top-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    margin: 2% 0 0 5%;
+}
+
+.left p {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white;
+    width: 500px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+}
+
+.right {
+    margin: 2% 5% 0 0;
+}
+
+.button-main {
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    color: #343333;
+    background-color: #73A0C5;
+    border: 2px solid #73A0C5;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 20px;
+    font-weight: bold
+}
+
+.button-main:focus, .button-main:hover {
+    box-shadow: 0px 0px 10px 0px black;
+    background: #73A0C5;
+    border-color: #73A0C5;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2b4860;
+}
+
+.middle {
+    margin: auto;
+    width: fit-content;
+    color: white;
+}
+

@@ -1,0 +1,31 @@
+main {
+    width: 100%;
+}
+
+.all-container {
+    width: 100%;
+}
+
+.one-creator {
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.image-source {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.data-row {
+    display: flex;
+    flex-direction: row;
+}

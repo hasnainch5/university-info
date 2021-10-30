@@ -1,0 +1,10 @@
+* {
+    font-size: 16px;
+}
+
+.main-con {
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #666262;
+    border-radius: 10px;
+}

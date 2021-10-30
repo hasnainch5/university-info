@@ -1,0 +1,17 @@
+.basic-styles-invalid {
+    color: red;
+    visibility: hidden;
+    font-size: 15px;
+    height: 10px;
+    width: fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.active-invalid-element {
+    visibility: visible;
+}
+
+.valid {
+    color: green;
+}
