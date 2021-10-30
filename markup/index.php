@@ -75,10 +75,12 @@ session_start();
     <div class="right">
         <img src="../res/undraw_Scrum_board_re_wk7v.svg" alt="doodle-svg-file">
     </div>
+
 </div>
+
 <footer>
     <div class="middle"><span class="far fa-copyright"></span>University Informator. 2020 All Rights Reserved</div>
 </footer>
-</body>
 
+</body>
 </html>
